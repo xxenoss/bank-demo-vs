@@ -12,7 +12,6 @@ function depositFunction(){
     var balanceAmount = parseFloat(document.querySelector(".balance-amount").textContent);
     var depositInputAmount = parseFloat(document.querySelector("#deposit-amount-input").value);
     var depositedAmount = parseFloat(document.querySelector(".deposit-amount").textContent);
-    if (depositInputAmount < 0)
     var addedDepositAmount = depositInputAmount + depositedAmount;
     var addedToBalance = depositInputAmount + balanceAmount;
     document.querySelector(".deposit-amount").textContent = addedDepositAmount.toString();
