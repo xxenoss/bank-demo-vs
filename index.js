@@ -1,4 +1,4 @@
-const username = "demo@gmail.com"
+const username = "demo"
 const password = "1234"
 
 document.querySelector(".login-button").addEventListener("click", function(){

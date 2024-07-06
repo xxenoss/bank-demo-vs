@@ -5,6 +5,7 @@
 .title {
     margin-top: 30px;
     font-size: 50px;
+    padding: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .login-section{
@@ -66,3 +67,25 @@
         }
 }
 
+@media (max-width: 768px) {
+    .login-form {
+        margin: auto;
+        width: 100%; /* Adjust width as needed */
+        display: block; /* Ensure it's a block-level element */
+    }
+    .log-title{
+        font-size: medium;
+    }
+    .username-input , .password-input{
+        font-size: small;
+        height: auto;
+        width: auto;
+    }
+    .login-button{
+        font-size: larger;
+    }
+    .title{
+        font-size:xx-large;
+        padding: 20px;
+    }
+}

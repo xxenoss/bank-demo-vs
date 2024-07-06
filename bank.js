@@ -1,8 +1,3 @@
-
-
-
-
-
 document.querySelector(".deposit-button").addEventListener("click", depositFunction)
 document.querySelector(".withdraw-button").addEventListener("click", withdrawFunction)
 
