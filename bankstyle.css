@@ -1,0 +1,82 @@
+.cal-box{
+    background-color: blueviolet;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+}
+.row{
+    gap: 100px;
+}
+.depo-box{
+    background: rgb(23,14,160);
+background: linear-gradient(90deg, rgba(23,14,160,1) 0%, rgba(14,14,128,1) 35%, rgba(2,16,19,1) 100%);   
+}
+.cal-title{
+    font-size: 30px;
+
+}
+.withd-box{
+    background: rgb(160,14,98);
+background: linear-gradient(90deg, rgba(160,14,98,1) 0%, rgba(128,14,85,1) 35%, rgba(75,24,48,1) 100%);
+}
+.bal-box{
+    background: rgb(27,160,14);
+background: linear-gradient(90deg, rgba(27,160,14,1) 0%, rgba(22,128,14,1) 35%, rgba(24,75,26,1) 100%);
+}
+.container{
+    padding-top: 100px;
+}
+.px-5{
+    font-size: 50px;
+}
+
+.form-box{
+    width: 40%;
+    border-radius: 20px;
+    box-shadow:
+        rgba(250, 3, 3, 0.024) 0px 0px 0px 1px,
+        rgba(250, 4, 4, 0.05) 0px 2px 0px 0px,
+        rgba(222, 6, 6, 0.03) 0px 0px 8px 20px,
+        rgba(245, 5, 5, 0.1) 0px 20px 30px 0px;
+}
+#deposit-amount-input, #withdraw-amount-input{
+    ackground-color: beige;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    margin:auto;
+    border-radius: 4px;
+    box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    &:hover {
+        transform: perspective(800px) rotatex(-1deg);
+    
+        
+        }
+}
+         
+.dw-button {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .dw-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 

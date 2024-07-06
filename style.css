@@ -1,0 +1,67 @@
+*{
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.login-section{
+    margin-top: 2%;
+}
+.login-form{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.log-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.login-box{
+    width: 80%;
+    border-radius: 4px;
+    box-shadow:
+        rgba(250, 3, 3, 0.024) 0px 0px 0px 1px,
+        rgba(250, 4, 4, 0.05) 0px 1px 0px 0px,
+        rgba(222, 6, 6, 0.03) 0px 0px 8px 0px,
+        rgba(245, 5, 5, 0.1) 0px 20px 30px 0px;
+}
+.username-input , .password-input{
+    background-color: beige;
+    font-size: 20px;
+    height: 40px;
+    width: 80%;
+    margin:auto;
+    border-radius: 4px;
+    box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    &:hover {
+        transform: perspective(800px) rotateY(-1deg);
+        background-color: rgb(238, 232, 232);
+        
+        }
+
+
+}
+.login-button{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 4px;
+    box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    &:hover {
+        transform: perspective(800px) rotateY(-4deg);
+        background-color: rgb(7, 7, 7);
+        color: aliceblue ;
+        }
+}
